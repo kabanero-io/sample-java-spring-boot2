@@ -1,0 +1,70 @@
+apiVersion: appsody.dev/v1beta1
+kind: AppsodyApplication
+metadata:
+  annotations:
+    architecture: x86_64
+    authoritative-source-url: registry.access.redhat.com
+    build-date: 2019-07-23T16:20:54.720447
+    commit.image.appsody.dev/author: Daniel Cleyrat <dacleyra@us.ibm.com>
+    commit.image.appsody.dev/committer: GitHub <noreply@github.com>
+    commit.image.appsody.dev/date: Thu Nov 14 10:26:18 2019 -0500
+    commit.image.appsody.dev/message: Initial commit
+    description: This image contains the Kabanero development stack for the java-spring-boot2
+      collection
+    distribution-scope: public
+    image.opencontainers.org/created: "2019-11-14T10:33:07-05:00"
+    image.opencontainers.org/revision: 6a5c067a142cd7ddb118991ece843b7bd8f5632a-modified
+    k8s.io/description: The Universal Base Image is designed and engineered to be
+      the base layer for all of your containerized applications, middleware and utilities.
+      This base image is freely redistributable, but Red Hat only supports Red Hat
+      technologies through subscriptions for Red Hat products. This image is maintained
+      by Red Hat and updated regularly.
+    k8s.io/display-name: Red Hat Universal Base Image 8
+    maintainer: Red Hat, Inc.
+    name: kabanero/java-spring-boot2
+    openshift.io/expose-services: ""
+    openshift.io/tags: base rhel8
+    redhat.com/build-host: cpt-1006.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/component: ubi8-container
+    redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
+    release: "154"
+    stack.appsody.dev/configured: kabanero/java-spring-boot2:0.3
+    stack.appsody.dev/created: 2019-11-08T17:21:22+0000
+    stack.appsody.dev/revision: 5eeb48d7026977e2bfcc71ec80d3783db81bcf4c
+    stack.appsody.dev/tag: kabanero/java-spring-boot2:0.3.15
+    summary: Image for Kabanero java-spring-boot2 development
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.0-154
+    vcs-ref: b80158ff460c2cd8958e35c55b0c7f50ca17638e
+    vcs-type: git
+    vendor: Kabanero
+    version: 0.2.10
+  labels:
+    image.opencontainers.org/title: sample-java-spring-boot2
+    stack.appsody.dev/version: 0.3.15
+  name: sample-java-spring-boot2
+spec:
+  applicationImage: dev.local/sample-java-spring-boot2
+  createKnativeService: true
+  expose: true
+  livenessProbe:
+    failureThreshold: 12
+    httpGet:
+      path: /actuator/liveness
+      port: 8080
+    initialDelaySeconds: 5
+    periodSeconds: 2
+  readinessProbe:
+    failureThreshold: 12
+    httpGet:
+      path: /actuator/health
+      port: 8080
+    initialDelaySeconds: 5
+    periodSeconds: 2
+  service:
+    annotations:
+      prometheus.io/path: /actuator/prometheus
+      prometheus.io/scrape: "true"
+    port: 8080
+    type: NodePort
+  stack: java-spring-boot2
+  version: 1.0.0
