@@ -7,13 +7,13 @@ metadata:
     build-date: 2019-10-29T16:44:53.794580
     commit.image.appsody.dev/author: Daniel Cleyrat <dacleyra@us.ibm.com>
     commit.image.appsody.dev/committer: Daniel Cleyrat <dacleyra@us.ibm.com>
-    commit.image.appsody.dev/date: Thu Nov 14 10:42:23 2019 -0500
-    commit.image.appsody.dev/message: license
+    commit.image.appsody.dev/date: Tue Nov 19 09:06:05 2019 -0500
+    commit.image.appsody.dev/message: 0.3.0-rc.5
     description: This image contains the Kabanero development stack for the java-spring-boot2
       collection
     distribution-scope: public
-    image.opencontainers.org/created: "2019-11-19T09:05:06-05:00"
-    image.opencontainers.org/revision: 9aba216c1a8f362ae6833986595e0911d7b742fa-modified
+    image.opencontainers.org/created: "2019-12-03T16:35:32-05:00"
+    image.opencontainers.org/revision: 138fb5eabd24688aab55eed05d0a463f09a47d95-modified
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -29,8 +29,8 @@ metadata:
     redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
     release: "277"
     stack.appsody.dev/configured: kabanero/java-spring-boot2:0.3
-    stack.appsody.dev/created: 2019-11-18T19:08:21+0000
-    stack.appsody.dev/revision: 82c11bd3fda141fc56df6653a58a3567dfe87d46
+    stack.appsody.dev/created: 2019-12-02T20:42:15+0000
+    stack.appsody.dev/revision: a91ca0fd6288542b08268b4299b55ae81718fbc4
     stack.appsody.dev/tag: kabanero/java-spring-boot2:0.3.16
     summary: Image for Kabanero java-spring-boot2 development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-277
