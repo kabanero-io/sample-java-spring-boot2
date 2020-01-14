@@ -8,7 +8,7 @@ metadata:
     description: This image contains the Kabanero development stack for the java-spring-boot2
       collection
     distribution-scope: public
-    image.opencontainers.org/created: "2020-01-13T11:25:48-05:00"
+    image.opencontainers.org/created: "2020-01-14T15:49:22-05:00"
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -25,7 +25,7 @@ metadata:
     release: "277"
     stack.appsody.dev/authors: Erin Schnabel <schnabel@us.ibm.com>, Ozzy Osborne <ozzy@ca.ibm.com>
     stack.appsody.dev/configured: docker.io/kabanerobeta/java-spring-boot2:0.3
-    stack.appsody.dev/created: "2020-01-10T22:40:13Z"
+    stack.appsody.dev/created: "2020-01-14T12:37:17Z"
     stack.appsody.dev/description: Spring Boot using OpenJ9 and Maven
     stack.appsody.dev/licenses: Apache-2.0
     stack.appsody.dev/tag: docker.io/kabanerobeta/java-spring-boot2:0.3.21

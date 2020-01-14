@@ -1,1 +1,1 @@
-kabanero-io/collections java-spring-boot2 stack release 0.5.0-rc.2
+kabanero-io/collections java-spring-boot2 stack release 0.5.0-rc.3
