@@ -2,13 +2,13 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   annotations:
-    image.opencontainers.org/created: "2020-02-06T11:08:31-05:00"
+    image.opencontainers.org/created: "2020-02-06T13:55:48-05:00"
     stack.appsody.dev/authors: Erin Schnabel <schnabel@us.ibm.com>, Ozzy Osborne <ozzy@ca.ibm.com>
-    stack.appsody.dev/configured: docker.io/kabanero/java-spring-boot2:0.3
-    stack.appsody.dev/created: "2020-02-04T09:48:55Z"
+    stack.appsody.dev/configured: docker.io/appsody/java-spring-boot2:0.3
+    stack.appsody.dev/created: "2020-02-06T09:17:56Z"
     stack.appsody.dev/description: Spring Boot using OpenJ9 and Maven
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/tag: docker.io/kabanero/java-spring-boot2:0.3.23
+    stack.appsody.dev/tag: docker.io/appsody/java-spring-boot2:0.3.23
     stack.appsody.dev/title: Spring Boot®
   creationTimestamp: null
   labels:
