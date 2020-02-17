@@ -2,14 +2,43 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   annotations:
-    image.opencontainers.org/created: "2020-02-06T13:55:48-05:00"
+    architecture: x86_64
+    authoritative-source-url: registry.access.redhat.com
+    build-date: 2019-10-29T16:44:53.794580
+    description: The Universal Base Image is designed and engineered to be the base
+      layer for all of your containerized applications, middleware and utilities.
+      This base image is freely redistributable, but Red Hat only supports Red Hat
+      technologies through subscriptions for Red Hat products. This image is maintained
+      by Red Hat and updated regularly.
+    distribution-scope: public
+    image.opencontainers.org/created: "2020-02-17T11:39:05-05:00"
+    k8s.io/description: The Universal Base Image is designed and engineered to be
+      the base layer for all of your containerized applications, middleware and utilities.
+      This base image is freely redistributable, but Red Hat only supports Red Hat
+      technologies through subscriptions for Red Hat products. This image is maintained
+      by Red Hat and updated regularly.
+    k8s.io/display-name: Red Hat Universal Base Image 8
+    maintainer: Red Hat, Inc.
+    name: ubi8
+    openshift.io/expose-services: ""
+    openshift.io/tags: base rhel8
+    redhat.com/build-host: cpt-1002.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/component: ubi8-container
+    redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
+    release: "277"
     stack.appsody.dev/authors: Erin Schnabel <schnabel@us.ibm.com>, Ozzy Osborne <ozzy@ca.ibm.com>
-    stack.appsody.dev/configured: docker.io/appsody/java-spring-boot2:0.3
-    stack.appsody.dev/created: "2020-02-06T09:17:56Z"
+    stack.appsody.dev/configured: docker.io/kabanerobeta/java-spring-boot2:0.3
+    stack.appsody.dev/created: "2020-02-14T10:52:46Z"
     stack.appsody.dev/description: Spring Boot using OpenJ9 and Maven
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/tag: docker.io/appsody/java-spring-boot2:0.3.23
+    stack.appsody.dev/tag: docker.io/kabanerobeta/java-spring-boot2:0.3.23
     stack.appsody.dev/title: Spring Boot®
+    summary: Provides the latest release of Red Hat Universal Base Image 8.
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-277
+    vcs-ref: c42933bcdbf9f1c232e981a5e40de257c3534c8e
+    vcs-type: git
+    vendor: Red Hat, Inc.
+    version: "8.1"
   creationTimestamp: null
   labels:
     image.opencontainers.org/title: sample-java-spring-boot2
