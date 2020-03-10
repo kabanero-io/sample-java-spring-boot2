@@ -5,7 +5,7 @@
 
   <parent><!--required parent POM-->
     <groupId>dev.appsody</groupId>
-    <artifactId>spring-boot2-stack-snowdrop</artifactId>
+    <artifactId>spring-boot2-stack</artifactId>
     <version>[0.3, 0.4)</version>
     <relativePath/>
   </parent>
