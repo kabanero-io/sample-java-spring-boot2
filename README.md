@@ -1,1 +1,1 @@
-kabanero-io/collections java-spring-boot2 stack release 0.6.2
+kabanero-io/kabanero-stack-hub java-spring-boot2 release 0.7.0

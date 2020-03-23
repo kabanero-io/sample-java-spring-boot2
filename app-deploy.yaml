@@ -8,12 +8,12 @@ metadata:
     commit.stack.appsody.dev/author: Steve Groeger <groeges@uk.ibm.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/java-spring-boot2
-    commit.stack.appsody.dev/date: Tue Mar 10 13:54:06 2020 +0000
-    commit.stack.appsody.dev/message: 'Merge pull request #309 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Tue Mar 10 21:35:36 2020 +0000
+    commit.stack.appsody.dev/message: 'Merge pull request #313 from groeges/release-0.6'
     description: This image is the Kabanero development container for the java-spring-boot2
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-03-10T15:28:31-04:00"
+    image.opencontainers.org/created: "2020-03-23T11:09:24-04:00"
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -30,11 +30,11 @@ metadata:
     release: "277"
     stack.appsody.dev/authors: Erin Schnabel <schnabel@us.ibm.com>, Ozzy Osborne <ozzy@ca.ibm.com>
     stack.appsody.dev/configured: docker.io/kabanero/java-spring-boot2:0.3
-    stack.appsody.dev/created: "2020-03-10T14:16:03Z"
+    stack.appsody.dev/created: "2020-03-10T21:44:39Z"
     stack.appsody.dev/description: Spring Boot using OpenJ9 and Maven
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 998cf17e727eef2d3e9cc717d8aab2275732e1a6
+    stack.appsody.dev/revision: 5f7634c970b880bef90eeea4288153249e172d61
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2/image
     stack.appsody.dev/tag: docker.io/kabanero/java-spring-boot2:0.3.24
     stack.appsody.dev/title: Spring Boot®
