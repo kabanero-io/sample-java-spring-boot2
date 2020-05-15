@@ -4,16 +4,21 @@ metadata:
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
-    build-date: 2019-10-29T16:44:53.794580
-    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
-    commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
+    build-date: 2020-03-31T14:54:13.907559
+    commit.image.appsody.dev/date: Mon Apr 20 09:30:09 2020 -0400
+    commit.image.appsody.dev/message: 0.8.0
     commit.stack.appsody.dev/contextDir: /incubator/java-spring-boot2
-    commit.stack.appsody.dev/date: Fri Apr 3 09:22:57 2020 +0100
-    commit.stack.appsody.dev/message: 'Merge pull request #316 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Fri May 1 15:13:54 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #331 from uberskigeek/329_fix_missing_continuation'
     description: This image is the Kabanero development container for the java-spring-boot2
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-04-20T09:29:55-04:00"
+    image.opencontainers.org/created: "2020-05-15T17:07:11-04:00"
+    image.opencontainers.org/documentation: https://github.com/kabanero-io/sample-java-spring-boot2
+    image.opencontainers.org/revision: b641eda5b26fbccfa79068cc48f8f5d9c35509e9-modified
+    image.opencontainers.org/source: https://github.com/kabanero-io/sample-java-spring-boot2/tree/HEAD
+      -> origin
+    image.opencontainers.org/url: https://github.com/kabanero-io/sample-java-spring-boot2
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -24,24 +29,26 @@ metadata:
     name: kabanero/java-spring-boot2
     openshift.io/expose-services: ""
     openshift.io/tags: base rhel8
-    redhat.com/build-host: cpt-1002.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/build-host: cpt-1007.osbs.prod.upshift.rdu2.redhat.com
     redhat.com/component: ubi8-container
     redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
-    release: "277"
-    stack.appsody.dev/authors: Erin Schnabel <schnabel@us.ibm.com>, Ozzy Osborne <ozzy@ca.ibm.com>
+    release: "408"
+    stack.appsody.dev/authors: Erin Schnabel <ebullient>, Ozzy Osborne <bardweller>,
+      Richard Trotter <richard-trotter>, Harish Yayi <yharish991>
     stack.appsody.dev/configured: docker.io/kabanerobeta/java-spring-boot2:0.3
-    stack.appsody.dev/created: "2020-04-03T08:38:07Z"
+    stack.appsody.dev/created: "2020-05-01T14:41:23Z"
     stack.appsody.dev/description: Spring Boot using OpenJ9 and Maven
+    stack.appsody.dev/digest: sha256:f1d1d8697f262128480652daedbec74788180197a37629e9de724eb4530615f8
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 27a3254c80e6c5367a76e6099c2e18b393d15841
+    stack.appsody.dev/revision: 8c75520a677c818df6c9c546b9402cc1733feaa6
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2/image
-    stack.appsody.dev/tag: docker.io/kabanerobeta/java-spring-boot2:0.3.28
+    stack.appsody.dev/tag: docker.io/kabanerobeta/java-spring-boot2:0.3.29
     stack.appsody.dev/title: Spring Boot®
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2
     summary: Image for Kabanero java-spring-boot2 development
-    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-277
-    vcs-ref: c42933bcdbf9f1c232e981a5e40de257c3534c8e
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-408
+    vcs-ref: 26f36bfa3e3a04c8c866b250924c1aefc34f01c9
     vcs-type: git
     vendor: Kabanero
     version: 0.3.23
@@ -49,7 +56,7 @@ metadata:
   labels:
     image.opencontainers.org/title: sample-java-spring-boot2
     stack.appsody.dev/id: java-spring-boot2
-    stack.appsody.dev/version: 0.3.28
+    stack.appsody.dev/version: 0.3.29
   name: sample-java-spring-boot2
 spec:
   applicationImage: dev.local/sample-java-spring-boot2
