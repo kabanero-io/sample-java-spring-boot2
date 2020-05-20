@@ -5,17 +5,17 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2020-03-31T14:54:13.907559
-    commit.image.appsody.dev/date: Mon Apr 20 09:30:09 2020 -0400
-    commit.image.appsody.dev/message: 0.8.0
+    commit.image.appsody.dev/date: Fri May 15 17:09:07 2020 -0400
+    commit.image.appsody.dev/message: 0.9.0-rc.3
     commit.stack.appsody.dev/contextDir: /incubator/java-spring-boot2
-    commit.stack.appsody.dev/date: Fri May 1 15:13:54 2020 +0100
-    commit.stack.appsody.dev/message: 'Merge pull request #331 from uberskigeek/329_fix_missing_continuation'
+    commit.stack.appsody.dev/date: Thu May 14 09:37:35 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #340 from groeges/release-0.9-codewind'
     description: This image is the Kabanero development container for the java-spring-boot2
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-05-15T17:07:11-04:00"
+    image.opencontainers.org/created: "2020-05-20T13:55:52-04:00"
     image.opencontainers.org/documentation: https://github.com/kabanero-io/sample-java-spring-boot2
-    image.opencontainers.org/revision: b641eda5b26fbccfa79068cc48f8f5d9c35509e9-modified
+    image.opencontainers.org/revision: 08cc27fa824d9bb51f5e55df7c610de0848021fc-modified
     image.opencontainers.org/source: https://github.com/kabanero-io/sample-java-spring-boot2/tree/HEAD
       -> origin
     image.opencontainers.org/url: https://github.com/kabanero-io/sample-java-spring-boot2
@@ -35,15 +35,15 @@ metadata:
     release: "408"
     stack.appsody.dev/authors: Erin Schnabel <ebullient>, Ozzy Osborne <bardweller>,
       Richard Trotter <richard-trotter>, Harish Yayi <yharish991>
-    stack.appsody.dev/configured: docker.io/kabanerobeta/java-spring-boot2:0.3
-    stack.appsody.dev/created: "2020-05-01T14:41:23Z"
+    stack.appsody.dev/configured: docker.io/kabanero/java-spring-boot2:0.3
+    stack.appsody.dev/created: "2020-05-19T06:48:21Z"
     stack.appsody.dev/description: Spring Boot using OpenJ9 and Maven
-    stack.appsody.dev/digest: sha256:f1d1d8697f262128480652daedbec74788180197a37629e9de724eb4530615f8
+    stack.appsody.dev/digest: sha256:5c7154e6758d60c3a2aa855ada917aa7da02ca40740f41637166d30aed3b4733
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 8c75520a677c818df6c9c546b9402cc1733feaa6
+    stack.appsody.dev/revision: 104bb146d0d770e30886b845d7fca9311d54ed20
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2/image
-    stack.appsody.dev/tag: docker.io/kabanerobeta/java-spring-boot2:0.3.29
+    stack.appsody.dev/tag: docker.io/kabanero/java-spring-boot2:0.3.29
     stack.appsody.dev/title: Spring Boot®
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/java-spring-boot2
     summary: Image for Kabanero java-spring-boot2 development
